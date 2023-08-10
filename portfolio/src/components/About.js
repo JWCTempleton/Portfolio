@@ -4,11 +4,11 @@ import { Fade } from "react-awesome-reveal";
 const About = ({ darkMode }) => (
   <div className={darkMode ? "about dark" : "about"}>
     <div className="about-section" id="about">
-      <Fade duration={2800}>
+      <Fade duration={3200}>
         <h2>About Me</h2>
       </Fade>
-      <div className="about-div">
-        <Fade cascade damping={0.6}>
+      <Fade cascade damping={0.5}>
+        <div className="about-div">
           <div className="about-img-section">
             <img
               className="about-img"
@@ -30,14 +30,14 @@ const About = ({ darkMode }) => (
               working with Express as well as database design with both
               relational (postgres) as well as non-relational (mongo) databases.
             </p>
-            <div>
-              <a href="./JWCT_dev_2023.pdf" target="_blank" rel="noreferrer">
-                <button className="about-button">My Resume</button>
-              </a>
-            </div>
           </div>
-        </Fade>
-      </div>
+        </div>
+        <div>
+          <a href="./JWCT_dev_2023.pdf" target="_blank" rel="noreferrer">
+            <button className="about-button">My Resume</button>
+          </a>
+        </div>
+      </Fade>
     </div>
   </div>
 );

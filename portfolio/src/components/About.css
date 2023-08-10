@@ -35,12 +35,16 @@ h2 {
 
 .about-img {
   border-radius: 0.8rem;
+  max-width: 95%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
 .about-text-section {
   width: 45vw;
-  font-size: 1.4vw;
-  font-weight: 600;
+  font-size: 1.5vw;
+  font-weight: 700;
+  line-height: 1.7;
 }
 
 .about-button {
@@ -49,7 +53,7 @@ h2 {
   cursor: pointer;
   padding: 1.2rem 1.6rem;
   color: #ffffff;
-  font-size: 1.4rem;
+  font-size: 1.4vw;
   border-radius: 0.8rem;
   font-weight: 600;
   margin-top: 2.3rem;
@@ -60,4 +64,52 @@ h2 {
   transform: translatey(-3px);
   box-shadow: rgba(0, 0, 0, 0.25) 2.35px 2.5px 2.6px;
   transition: background-color 0.2s ease-in-out;
+}
+
+@media screen and (max-width: 750px) {
+  .about-div {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .about-img-section {
+    width: 60vw;
+  }
+
+  .about-img {
+    max-height: 40vw;
+  }
+
+  .about-text-section {
+    width: 68vw;
+    font-size: 2.3vw;
+    font-weight: 700;
+  }
+
+  .about-button {
+    font-size: 1.8vw;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .about-img-section {
+    width: 70vw;
+  }
+
+  .about-img {
+    max-height: 50vw;
+  }
+  .about-text-section {
+    width: 75vw;
+    font-size: 2.7vw;
+    font-weight: 700;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .about-text-section {
+    width: 85vw;
+    font-size: 3vw;
+    font-weight: 700;
+  }
 }
