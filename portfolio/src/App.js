@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App">
       <Hero darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
-      <About />
+      <About darkMode={darkMode} />
     </div>
   );
 }
