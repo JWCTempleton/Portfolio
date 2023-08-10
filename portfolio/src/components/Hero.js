@@ -1,10 +1,32 @@
 import "./Hero.css";
 import Toggler from "./Toggler";
+
 const Hero = ({ darkMode, toggleDarkMode }) => {
   return (
     <div className="hero">
       <Toggler toggleDarkMode={toggleDarkMode} darkMode={darkMode} />
-      <h1>Hi, I'm Jacob Templeton</h1>
+      <div className="hero-section">
+        <p className="hero-text">
+          <span className={darkMode ? "fade-first dark" : "fade-first"}>
+            Hi,{" "}
+          </span>
+          <span className={darkMode ? "fade-second dark" : "fade-second"}>
+            I'm <span className="text-background">Jacob Templeton</span>...
+          </span>
+          <br />
+          <span className={darkMode ? "fade-third dark" : "fade-third"}>
+            your next web developer.
+          </span>
+        </p>
+        <div className="button-section fade-third">
+          <a href="#about">
+            <button className="hero-button">About Me</button>
+          </a>
+          <a href="#projects">
+            <button className="hero-button">My Projects</button>
+          </a>
+        </div>
+      </div>
       <svg
         className={darkMode ? "background--custom dark" : "background--custom"}
         viewBox="0 0 100 100"
