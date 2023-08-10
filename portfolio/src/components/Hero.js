@@ -1,7 +1,9 @@
 import "./Hero.css";
-const Hero = ({ darkMode }) => {
+import Toggler from "./Toggler";
+const Hero = ({ darkMode, toggleDarkMode }) => {
   return (
     <div className="hero">
+      <Toggler toggleDarkMode={toggleDarkMode} darkMode={darkMode} />
       <h1>Hi, I'm Jacob Templeton</h1>
       <svg
         className={darkMode ? "background--custom dark" : "background--custom"}
