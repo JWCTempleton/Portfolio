@@ -3,3 +3,104 @@
   height: 90vh;
   justify-content: center;
 }
+
+path {
+  transform-origin: 50% 0%;
+}
+.background--custom {
+  background-color: #ffffff;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  top: 0;
+  left: 0;
+}
+
+.background--custom.dark {
+  background-color: rgb(24, 23, 36);
+  color: white;
+}
+
+.fade-first {
+  animation: fade-first 1.5s;
+}
+
+.fade-first.dark {
+  color: white;
+}
+
+.fade-second {
+  opacity: 0;
+  animation-name: fade-second;
+  animation-duration: 1.3s;
+  animation-delay: 1.2s;
+  animation-fill-mode: forwards;
+}
+
+.fade-second.dark {
+  color: white;
+}
+
+.fade-third {
+  opacity: 0;
+  animation-name: fade-second;
+  animation-duration: 1.5s;
+  animation-delay: 2.8s;
+  animation-fill-mode: forwards;
+}
+
+.fade-third.dark {
+  color: white;
+}
+
+@keyframes fade-first {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-second {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-third {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes path0 {
+  0% {
+    transform: rotate(-18deg);
+  }
+  100% {
+    transform: rotate(30deg);
+  }
+}
+@keyframes path1 {
+  0% {
+    transform: rotate(-20deg);
+  }
+  100% {
+    transform: rotate(20deg);
+  }
+}
+@keyframes path2 {
+  0% {
+    transform: rotate(40deg);
+  }
+  100% {
+    transform: rotate(-40deg);
+  }
+}
