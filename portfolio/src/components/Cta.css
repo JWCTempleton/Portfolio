@@ -1,0 +1,52 @@
+.call {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 18rem 5rem;
+  background-color: #e9c46a;
+  background-image: linear-gradient(135deg, #e9c46a, #f4a261);
+  color: #fff;
+  clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+}
+
+.call-title {
+  font-size: 4.8rem;
+  font-weight: 700;
+}
+
+.call-content {
+  font-size: 2.5vw;
+  font-weight: 700;
+  text-align: center;
+}
+
+.call-content.email {
+  margin-top: 2rem;
+}
+.cta {
+  padding-bottom: 10rem;
+}
+
+.cta.dark {
+  background-color: rgb(24, 23, 36);
+}
+
+@media screen and (max-width: 600px) {
+  .call-content {
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 700;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .call-content {
+    font-size: 1.4rem;
+  }
+
+  .call-title {
+    font-size: 3.8rem;
+  }
+}
