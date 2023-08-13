@@ -3,6 +3,7 @@ import { useState } from "react";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Projects from "./components/Projects";
+import Cta from "./components/Cta";
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -16,6 +17,7 @@ function App() {
       <Hero darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
       <About darkMode={darkMode} />
       <Projects darkMode={darkMode} />
+      <Cta darkMode={darkMode} />
     </div>
   );
 }
