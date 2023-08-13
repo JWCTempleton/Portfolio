@@ -7,7 +7,7 @@ const Projects = ({ darkMode }) => (
       className={darkMode ? "projects-section dark" : "projects-section"}
       id="projects"
     >
-      <h2 className="mb-small">My Projects</h2>
+      <h2 className="projects-title mb-small">My Projects</h2>
       <Fade duration={1800}>
         <div className="projects-content mb-medium">
           <div className="projects-text">

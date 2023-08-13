@@ -89,11 +89,15 @@ a:visited {
   }
 
   .projects-text {
-    width: 50%;
+    width: 58%;
+  }
+
+  .projects-text a {
+    align-self: flex-start;
   }
 
   .projects-text p {
-    font-size: 2vw;
+    font-size: 1.6vh;
     font-weight: 700;
     line-height: 1.6;
   }
@@ -111,5 +115,46 @@ a:visited {
   .projects-photo {
     height: 35vw;
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .projects-title {
+    font-size: 4rem;
+  }
+  .projects-text {
+    width: 75vw;
+  }
+
+  .projects-text p {
+    font-size: 1.4rem;
+  }
+
+  .projects-image {
+    width: 75vw;
+    display: flex;
+    justify-content: center;
+  }
+  .projects-photo {
+    height: 50vw;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .projects-image {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+  }
+
+  .projects-photo {
+    height: auto;
+    width: 100%;
+    border-radius: 0;
+  }
+
+  .projects-text {
+    width: 95vw;
   }
 }

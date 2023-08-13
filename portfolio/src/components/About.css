@@ -87,7 +87,7 @@ h2 {
   }
 
   .about-button {
-    font-size: 1.8vw;
+    font-size: 1.2rem;
   }
 }
 
@@ -101,7 +101,7 @@ h2 {
   }
   .about-text-section {
     width: 75vw;
-    font-size: 2.7vw;
+    font-size: 1.3rem;
     font-weight: 700;
   }
 }
@@ -109,7 +109,7 @@ h2 {
 @media screen and (max-width: 375px) {
   .about-text-section {
     width: 85vw;
-    font-size: 3vw;
+    font-size: 1.2rem;
     font-weight: 700;
   }
 }
