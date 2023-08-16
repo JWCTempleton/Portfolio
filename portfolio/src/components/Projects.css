@@ -77,7 +77,6 @@ a:visited {
   .projects-content {
     align-items: center;
     flex-direction: column-reverse;
-    width: 100vw;
     justify-content: center;
   }
 
