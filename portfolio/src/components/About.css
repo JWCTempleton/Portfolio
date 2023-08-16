@@ -1,3 +1,6 @@
+.about {
+  width: 100vw;
+}
 .about-section {
   display: flex;
   flex-direction: column;
@@ -21,6 +24,7 @@ h2 {
 }
 
 .about-div {
+  max-width: 80vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -42,7 +46,7 @@ h2 {
 
 .about-text-section {
   width: 45vw;
-  font-size: 1.5vw;
+  font-size: 1.6rem;
   font-weight: 700;
   line-height: 1.7;
 }
