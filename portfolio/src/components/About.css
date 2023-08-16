@@ -24,7 +24,7 @@ h2 {
 }
 
 .about-div {
-  max-width: 80vw;
+  max-width: 90rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -33,21 +33,20 @@ h2 {
 .about-img-section {
   display: flex;
   justify-content: center;
-  padding: 4vw;
-  width: 40vw;
+  padding: 4rem;
+  max-width: 50rem;
 }
 
 .about-img {
   border-radius: 0.8rem;
-  height: auto;
-  width: 85%;
+  width: 100%;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
     rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
 .about-text-section {
-  width: 38vw;
-  font-size: 1.6rem;
+  max-width: 60rem;
+  font-size: 1.8vh;
   font-weight: 700;
   line-height: 1.7;
 }
@@ -58,7 +57,7 @@ h2 {
   cursor: pointer;
   padding: 1.2rem 1.6rem;
   color: #ffffff;
-  font-size: 1.4vw;
+  font-size: 1.4rem;
   border-radius: 0.8rem;
   font-weight: 600;
   margin-top: 2.3rem;
