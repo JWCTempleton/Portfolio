@@ -4,10 +4,10 @@ import { Fade } from "react-awesome-reveal";
 const About = ({ darkMode }) => (
   <div className={darkMode ? "about dark" : "about"}>
     <div className="about-section" id="about">
-      <Fade duration={3200}>
+      <Fade duration={3500}>
         <h2>About Me</h2>
       </Fade>
-      <Fade cascade damping={0.5}>
+      <Fade cascade>
         <div className="about-div">
           <div className="about-img-section">
             <img
