@@ -69,14 +69,14 @@ h2 {
   transition: background-color 0.2s ease-in-out;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 945px) {
   .about-div {
     flex-direction: column;
-    gap: 2rem;
+    gap: 3rem;
   }
 
   .about-img-section {
-    width: 60vw;
+    width: 40rem;
   }
 
   .about-img {
@@ -84,8 +84,9 @@ h2 {
   }
 
   .about-text-section {
-    width: 68vw;
-    font-size: 1.4rem;
+    width: 60vw;
+    font-size: 1.5rem;
+    line-height: 1.8;
     font-weight: 700;
   }
 
