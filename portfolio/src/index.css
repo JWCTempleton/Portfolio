@@ -22,6 +22,9 @@ body {
   font-size: 62.5%;
   scroll-behavior: smooth;
 }
+html {
+  overflow-x: hidden;
+}
 /*
   Typographic tweaks!
   4. Add accessible line-height
@@ -42,8 +45,10 @@ canvas {
   max-width: 100%;
 }
 svg {
+  max-width: 100vw;
   display: block;
 }
+
 /*
   7. Remove built-in form typography styles
 */
