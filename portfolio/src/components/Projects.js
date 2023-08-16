@@ -60,7 +60,7 @@ const Projects = ({ darkMode }) => (
             <a href="https://fullstack-note-app.fly.dev/">
               <img
                 className="projects-photo"
-                src="./laptop-4.jpg"
+                src="./laptop-2.jpg"
                 alt="laptop"
               />
             </a>
@@ -73,7 +73,7 @@ const Projects = ({ darkMode }) => (
             <a href="http://skycamaviation.com">
               <img
                 className="projects-photo"
-                src="./laptop-2.jpg"
+                src="./laptop-4.jpg"
                 alt="laptop"
               />
             </a>
@@ -154,7 +154,7 @@ const Projects = ({ darkMode }) => (
             <a href="https://jwctempleton.github.io/hacker-news-search/">
               <img
                 className="projects-photo"
-                src="./laptop-3.jpg"
+                src="./laptop-1.jpg"
                 alt="laptop"
               />
             </a>

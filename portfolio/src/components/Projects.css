@@ -13,7 +13,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 80vw;
+  width: 120rem;
   gap: 4rem;
   padding-bottom: 3rem;
   transition: all 0.5s;
@@ -21,7 +21,7 @@
 
 .projects-text {
   display: flex;
-  width: 40vw;
+  width: 40rem;
   flex-direction: column;
 }
 
@@ -55,7 +55,7 @@ a:visited {
 .projects-photo {
   border-radius: 0.8rem;
   object-fit: cover;
-  height: 30vw;
+  height: 35rem;
   width: 100%;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
     rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
@@ -74,7 +74,7 @@ a:visited {
   margin-bottom: 6.5rem;
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 1000px) {
   .projects-content {
     align-items: center;
     flex-direction: column-reverse;
@@ -89,7 +89,7 @@ a:visited {
   }
 
   .projects-text {
-    width: 58%;
+    width: 50rem;
   }
 
   .projects-text a {
@@ -107,13 +107,13 @@ a:visited {
   }
 
   .projects-image {
-    width: 65vw;
+    width: 55rem;
     display: flex;
     justify-content: center;
   }
 
   .projects-photo {
-    height: 40vw;
+    height: 36rem;
     width: 100%;
   }
 }
@@ -131,18 +131,6 @@ a:visited {
   }
 
   .projects-image {
-    width: 75vw;
-    display: flex;
-    justify-content: center;
-  }
-  .projects-photo {
-    height: 50vw;
-    width: 100%;
-  }
-}
-
-@media screen and (max-width: 410px) {
-  .projects-image {
     width: 100vw;
     display: flex;
     justify-content: center;
@@ -153,7 +141,9 @@ a:visited {
     width: 100%;
     border-radius: 0;
   }
+}
 
+@media screen and (max-width: 500px) {
   .projects-text {
     width: 90vw;
   }
