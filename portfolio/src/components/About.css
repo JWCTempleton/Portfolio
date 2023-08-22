@@ -67,6 +67,9 @@ h2 {
   transition: background-color 0.2s ease-in-out;
 }
 
+.about.dark {
+  background-color: rgb(24, 23, 36);
+}
 @media screen and (max-width: 945px) {
   .about-div {
     flex-direction: column;
